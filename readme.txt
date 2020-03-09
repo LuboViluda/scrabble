@@ -1,3 +1,5 @@
+spring boot and hibernate test playground:
+
 how to run:
 in scrabble folder (pom.xml level)
 1. build:
@@ -16,12 +18,3 @@ endpoints -
 http://localhost:8080/players
 http://localhost:8080/players/{playerId}
 http://localhost:8080/players/leaderboard
-changed "const" leaderboard - returns top 3
-							- at least 3 matches required
-
-next steps:
--> crud for player test (should be trivial)
--> investigate speed of playerRepositoryTest ("units" take seconds...)
--> unit tests other funcitonality (correct exceptions, mapping to Dto,...)
--> maybe entity optimizing/query, there could be better way how to break many to many relationship and get results directly in hibernate entities 
-
